@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Karla:wght@800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+}
+
+#generate-container {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    margin: auto;
+    padding: 75px 52px;
+}
+h1 {
+    font-family: karla;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+h1 span {
+    display: block;
+    color: #10B981;
+}
+p {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    position: relative;
+    top: -20px;
+}
+#generate-password {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    width: 211px;
+}
+svg {
+    padding: 3px 0 0 0;
+}
+hr {
+    border: 1px solid #2F3E53;;
+    margin: 35px 0;
+}
+.btn-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between
+}
+.input-pass {
+    font-family: inter;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    color: #55F991;
+    font-size: 16px;
+    line-height: 32px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+}
+.input-pass::placeholder {
+    color: #202B3C;
+}
+#pass-length {
+    width: 211px;
+    height: 42px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    
+}
+#pass-length::placeholder {
+    color: #FFFFFF;
+}
+#noticification {
+    opacity: 0;
+    position: absolute;
+    top: 475px;
+    left: 25%;
+    text-align: center;
+    width: 450px;
+    border-radius: 6px;
+    line-height: 24px;
+    padding: 9px;
+    transition: ease 1.5s;
+}
